@@ -1,2 +1,4 @@
 #! /usr/bin/env bash
+# I take a while to start for testing
+sleep 10
 exec python -m SimpleHTTPServer $1
