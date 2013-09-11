@@ -1,3 +1,4 @@
 #! /usr/bin/env bash
 # I take a while to start for testing
+cat index.template | sed -e s[{{pid}}[$BASHPID[g > index.html
 exec python -m SimpleHTTPServer $1
